@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+header{
+    background-image: url('https://www.brides.com/thmb/9TmstHlG_qUDl28Bte8Pot16xoE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/honeymoon-recirc-ab96d9fbaa2246e9a39d18c3dbda6f10.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.nav-link{
+    font-size: 20px;
+    color: black;
+}
+
+
+.nav-link:hover{
+    font-size: 23px;
+}
+
+
+.col-5{
+    margin-top: 120px;
+    color: blue;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 65px;
+    font-family: 'Italianno';
+}
+
+.col-4{
+    text-align: center;
+}
+
+.col-3{
+    text-align: center;
+    margin-left: 65px;
+}
+
+h5{
+    font-size: 50px;
+}
+
+ 
+
+.ttl{
+    color: red;
+    font-size: 35px;
+    font-family: 'Italianno';
+    text-align: center;
+}
+
+.card-title{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.custm{
+    color: blue;
+    font-size: 35px;
+    font-family: 'Italianno';
+    text-align: center;
+    
+}
+
+.fa-brands{
+    font-size: 30px;
+    color: aliceblue;
+}
+.fa-brands:hover{
+    font-size: 35px;
+    color: red;
+}
+
+.image{
+    width: 250px; 
+    border-radius: 25px; 
+    padding: 10px; 
+    height: 250px;
+}
+
+.card {
+   
+    position: relative;
+    width: 50%;
+  }
+
+  .card:hover{
+    background-color: rgb(37, 137, 137);
+  }
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.card:hover .image {
+    opacity: 0.2;
+  }  
+
+.card:hover .middle {
+    opacity: 1;
+
+  }
+
+.text{
+    font-size: 16px;
+    padding: 16px 32px;
+}
